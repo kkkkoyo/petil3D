@@ -20,6 +20,7 @@ public class ThirdPersonCamera : MonoBehaviour
 	
 	void Start()
 	{
+		
 		// 各参照の初期化
 		standardPos = GameObject.Find ("CamPos").transform;
 		
